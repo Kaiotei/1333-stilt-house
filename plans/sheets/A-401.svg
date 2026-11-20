@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1100" width="17in" height="11in">
+<style>
+text{font-family:'MS UI Gothic', Arial, sans-serif}
+.m{stroke:#1d1420;stroke-width:1.4;fill:none}
+.h{stroke:#1d1420;stroke-width:2.6;fill:none}
+.t{stroke:#1d1420;stroke-width:0.8;fill:none}
+.d{stroke:#1d1420;stroke-width:1;fill:none;stroke-dasharray:8 5}
+.c{stroke:#96799c;stroke-width:0.9;fill:none;stroke-dasharray:22 5 4 5}
+.dot{fill:#1d1420}
+.wall{fill:#4a3a50;stroke:#1d1420;stroke-width:1.2}
+.win{fill:#fff;stroke:#1d1420;stroke-width:0.9}
+.fill{fill:#f3eefa;stroke:#1d1420;stroke-width:1.2}
+.cut{fill:url(#hatch);stroke:#1d1420;stroke-width:2.2}
+.wb{fill:#fff;stroke:none}
+</style>
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#1d1420" stroke-width="1.6"/></pattern></defs>
+<rect x="0" y="0" width="1700" height="1100" fill="#fff"/>
+<rect class="h" x="30" y="30" width="1640" height="1040"/>
+<rect x="30" y="930" width="1640" height="30" fill="#322036"/>
+<text x="850" y="951" font-size="14" text-anchor="middle" font-weight="normal" fill="#e0ccf8" letter-spacing="1">EXPERIMENTAL · EDUCATIONAL · NOT FOR CONSTRUCTION WITHOUT LICENSED ENGINEER REVIEW AND PERMITS · BUILD AT YOUR OWN RISK</text>
+<rect class="h" x="30" y="960" width="1640" height="110"/>
+<line class="m" x1="470" y1="960" x2="470" y2="1070"/>
+<line class="m" x1="1000" y1="960" x2="1000" y2="1070"/>
+<line class="m" x1="1400" y1="960" x2="1400" y2="1070"/>
+<text x="48" y="996" font-size="24" text-anchor="start" font-weight="bold" fill="#322036" letter-spacing="3">13 &lt;33 COVENANT</text>
+<text x="48" y="1022" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">1333 Stilt House Kit · 16 x 20 on stilts</text>
+<text x="48" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Devised by Kaiotei. Math + research support: AI.</text>
+<text x="488" y="996" font-size="18" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">STAIR AND PORCH DETAIL</text>
+<text x="488" y="1022" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">Scale: 3/8" = 1'-0", plan 1/8" = 1'-0"</text>
+<text x="488" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Rev 2026-11 · dimensions in feet-inches unless noted</text>
+<text x="1018" y="990" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">CC BY-SA 4.0 · Kaiotei / 13 &lt;33 Covenant</text>
+<text x="1018" y="1012" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Share and adapt with credit, under the same license.</text>
+<text x="1018" y="1032" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">creativecommons.org/licenses/by-sa/4.0</text>
+<text x="1018" y="1052" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">1333covenant.com/irl/house</text>
+<text x="1535" y="1018" font-size="40" text-anchor="middle" font-weight="bold" fill="#322036">A-401</text>
+<text x="1535" y="1048" font-size="13" text-anchor="middle" font-weight="normal" fill="#1d1420">Sheet 9 of 10</text>
+<text x="70" y="80" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">STAIR + PORCH: SIDE VIEW</text>
+<line class="m" x1="70" y1="85" x2="286" y2="85"/>
+<text x="70" y="102" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Scale 3/8" = 1'-0". Porch on the right, stair running down to the left.</text>
+<line class="h" x1="121.3" y1="760" x2="821.1" y2="760"/>
+<rect class="fill" x="671.1" y="385" width="150" height="9.4"/>
+<polygon class="fill" points="671.1,396.3 671.1,430 218.8,772.8 218.8,752.5"/>
+<polyline class="h" points="671.1,385 671.1,410 639.8,410 639.8,435 608.6,435 608.6,460 577.4,460 577.4,485 546.1,485 546.1,510 514.9,510 514.9,535 483.7,535 483.7,560 452.4,560 452.4,585 421.2,585 421.2,610 389.9,610 389.9,635 358.7,635 358.7,660 327.5,660 327.5,685 296.2,685 296.2,710 265,710 265,735 233.8,735 233.8,760"/>
+<line class="h" x1="676.7" y1="272.5" x2="233.8" y2="627"/>
+<line class="h" x1="676.7" y1="272.5" x2="821.1" y2="272.5"/>
+<line class="h" x1="676.7" y1="328.8" x2="233.8" y2="683.3"/>
+<line class="h" x1="676.7" y1="328.8" x2="821.1" y2="328.8"/>
+<rect class="fill" x="670.7" y="266.9" width="12" height="155.6"/>
+<rect class="fill" x="227.8" y="621.4" width="12" height="138.6"/>
+<rect class="cut" x="151.2" y="752.5" width="90" height="11.3"/>
+<line class="t" x1="821.1" y1="760" x2="855.1" y2="760"/>
+<line class="t" x1="821.1" y1="385" x2="855.1" y2="385"/>
+<line class="t" x1="861.1" y1="760" x2="861.1" y2="385"/>
+<line class="m" x1="856.1" y1="765" x2="866.1" y2="755"/>
+<line class="m" x1="856.1" y1="390" x2="866.1" y2="380"/>
+<text x="854.1" y="572.5" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d1420" transform="rotate(-90 854.1 572.5)">10'-0" TOTAL RISE</text>
+<line class="t" x1="671.1" y1="760" x2="671.1" y2="806"/>
+<line class="t" x1="233.8" y1="760" x2="233.8" y2="806"/>
+<line class="t" x1="671.1" y1="800" x2="233.8" y2="800"/>
+<line class="m" x1="666.1" y1="805" x2="676.1" y2="795"/>
+<line class="m" x1="228.8" y1="805" x2="238.8" y2="795"/>
+<text x="452.4" y="794" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d1420">11'-8" TOTAL RUN</text>
+<line class="t" x1="821.1" y1="385" x2="895.1" y2="385"/>
+<line class="t" x1="821.1" y1="272.5" x2="895.1" y2="272.5"/>
+<line class="t" x1="901.1" y1="385" x2="901.1" y2="272.5"/>
+<line class="m" x1="896.1" y1="390" x2="906.1" y2="380"/>
+<line class="m" x1="896.1" y1="277.5" x2="906.1" y2="267.5"/>
+<text x="894.1" y="328.8" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d1420" transform="rotate(-90 894.1 328.8)">3'-0" GUARD</text>
+<line class="t" x1="676.7" y1="265" x2="736.7" y2="197.5"/>
+<circle class="dot" cx="676.7" cy="265" r="2.5"/>
+<text x="740.7" y="201.5" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">TOP NEWEL: porch guard + stair rails meet here</text>
+<line class="t" x1="577.4" y1="460" x2="697.4" y2="610"/>
+<circle class="dot" cx="577.4" cy="460" r="2.5"/>
+<text x="701.4" y="614" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">TREAD + RISER, see table</text>
+<text x="1130" y="130" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">STAIR TABLE</text>
+<line class="m" x1="1130" y1="135" x2="1290" y2="135"/>
+<rect class="m" x="1130" y="160" width="170" height="32"/>
+<rect class="m" x="1300" y="160" width="330" height="32"/>
+<text x="1140" y="181" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Risers</text>
+<text x="1310" y="181" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">15 @ 8"</text>
+<rect class="m" x="1130" y="192" width="170" height="32"/>
+<rect class="m" x="1300" y="192" width="330" height="32"/>
+<text x="1140" y="213" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Treads</text>
+<text x="1310" y="213" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">14 @ 10" run</text>
+<rect class="m" x="1130" y="224" width="170" height="32"/>
+<rect class="m" x="1300" y="224" width="330" height="32"/>
+<text x="1140" y="245" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Width</text>
+<text x="1310" y="245" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">3'-6"</text>
+<rect class="m" x="1130" y="256" width="170" height="32"/>
+<rect class="m" x="1300" y="256" width="330" height="32"/>
+<text x="1140" y="277" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Total rise</text>
+<text x="1310" y="277" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">10'-0"</text>
+<rect class="m" x="1130" y="288" width="170" height="32"/>
+<rect class="m" x="1300" y="288" width="330" height="32"/>
+<text x="1140" y="309" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Total run</text>
+<text x="1310" y="309" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">11'-8"</text>
+<rect class="m" x="1130" y="320" width="170" height="32"/>
+<rect class="m" x="1300" y="320" width="330" height="32"/>
+<text x="1140" y="341" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Porch guard</text>
+<text x="1310" y="341" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">3'-0" (36")</text>
+<rect class="m" x="1130" y="352" width="170" height="32"/>
+<rect class="m" x="1300" y="352" width="330" height="32"/>
+<text x="1140" y="373" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Stair rails</text>
+<text x="1310" y="373" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">top + mid, parallel to the nosing line</text>
+<rect class="m" x="1130" y="384" width="170" height="32"/>
+<rect class="m" x="1300" y="384" width="330" height="32"/>
+<text x="1140" y="405" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Structure</text>
+<text x="1310" y="405" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">detached: own posts, piers + landing pad</text>
+<rect class="m" x="1130" y="416" width="170" height="32"/>
+<rect class="m" x="1300" y="416" width="330" height="32"/>
+<text x="1140" y="437" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Porch</text>
+<text x="1310" y="437" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">5'-0" x 7'-6"</text>
+<text x="1130" y="488" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">NOTES</text>
+<text x="1130" y="505" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">1. Riser, tread, guard and handrail limits vary by code.</text>
+<text x="1130" y="522" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">   Check yours before cutting stringers.</text>
+<text x="1130" y="539" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">2. Stair can be unhooked from the porch for security (spec).</text>
+<text x="1130" y="556" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">   Design that connection with your engineer.</text>
+<text x="1130" y="573" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">3. Handrails must be graspable and continuous.</text>
+<text x="1130" y="630" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">PLAN (1/8" = 1'-0")</text>
+<line class="m" x1="1130" y1="635" x2="1301" y2="635"/>
+<rect class="d" x="1175" y="655" width="250" height="200"/>
+<rect class="fill" x="1331.3" y="858.1" width="93.8" height="62.5"/>
+<line class="m" x1="1333.1" y1="918.1" x2="1425" y2="918.1"/>
+<line class="m" x1="1422.5" y1="858.1" x2="1422.5" y2="920.6"/>
+<line class="m" x1="1333.1" y1="906.9" x2="1333.1" y2="918.1"/>
+<rect class="m" x="1185.5" y="863.1" width="145.8" height="43.8"/>
+<line class="t" x1="1320.8" y1="863.1" x2="1320.8" y2="906.9"/>
+<line class="t" x1="1310.4" y1="863.1" x2="1310.4" y2="906.9"/>
+<line class="t" x1="1300" y1="863.1" x2="1300" y2="906.9"/>
+<line class="t" x1="1289.6" y1="863.1" x2="1289.6" y2="906.9"/>
+<line class="t" x1="1279.2" y1="863.1" x2="1279.2" y2="906.9"/>
+<line class="t" x1="1268.8" y1="863.1" x2="1268.8" y2="906.9"/>
+<line class="t" x1="1258.4" y1="863.1" x2="1258.4" y2="906.9"/>
+<line class="t" x1="1248" y1="863.1" x2="1248" y2="906.9"/>
+<line class="t" x1="1237.5" y1="863.1" x2="1237.5" y2="906.9"/>
+<line class="t" x1="1227.1" y1="863.1" x2="1227.1" y2="906.9"/>
+<line class="t" x1="1216.7" y1="863.1" x2="1216.7" y2="906.9"/>
+<line class="t" x1="1206.3" y1="863.1" x2="1206.3" y2="906.9"/>
+<line class="t" x1="1195.9" y1="863.1" x2="1195.9" y2="906.9"/>
+<line class="m" x1="1325" y1="885" x2="1195.5" y2="885"/>
+<polygon class="m" points="1190.5,885 1199.2,879 1199.2,891" fill="#1d1420"/>
+<text x="1204.2" y="877" font-size="12" text-anchor="start" font-weight="bold" fill="#1d1420">DN</text>
+</svg>

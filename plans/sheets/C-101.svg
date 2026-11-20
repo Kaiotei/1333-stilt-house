@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1100" width="17in" height="11in">
+<style>
+text{font-family:'MS UI Gothic', Arial, sans-serif}
+.m{stroke:#1d1420;stroke-width:1.4;fill:none}
+.h{stroke:#1d1420;stroke-width:2.6;fill:none}
+.t{stroke:#1d1420;stroke-width:0.8;fill:none}
+.d{stroke:#1d1420;stroke-width:1;fill:none;stroke-dasharray:8 5}
+.c{stroke:#96799c;stroke-width:0.9;fill:none;stroke-dasharray:22 5 4 5}
+.dot{fill:#1d1420}
+.wall{fill:#4a3a50;stroke:#1d1420;stroke-width:1.2}
+.win{fill:#fff;stroke:#1d1420;stroke-width:0.9}
+.fill{fill:#f3eefa;stroke:#1d1420;stroke-width:1.2}
+.cut{fill:url(#hatch);stroke:#1d1420;stroke-width:2.2}
+.wb{fill:#fff;stroke:none}
+</style>
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#1d1420" stroke-width="1.6"/></pattern></defs>
+<rect x="0" y="0" width="1700" height="1100" fill="#fff"/>
+<rect class="h" x="30" y="30" width="1640" height="1040"/>
+<rect x="30" y="930" width="1640" height="30" fill="#322036"/>
+<text x="850" y="951" font-size="14" text-anchor="middle" font-weight="normal" fill="#e0ccf8" letter-spacing="1">EXPERIMENTAL · EDUCATIONAL · NOT FOR CONSTRUCTION WITHOUT LICENSED ENGINEER REVIEW AND PERMITS · BUILD AT YOUR OWN RISK</text>
+<rect class="h" x="30" y="960" width="1640" height="110"/>
+<line class="m" x1="470" y1="960" x2="470" y2="1070"/>
+<line class="m" x1="1000" y1="960" x2="1000" y2="1070"/>
+<line class="m" x1="1400" y1="960" x2="1400" y2="1070"/>
+<text x="48" y="996" font-size="24" text-anchor="start" font-weight="bold" fill="#322036" letter-spacing="3">13 &lt;33 COVENANT</text>
+<text x="48" y="1022" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">1333 Stilt House Kit · 16 x 20 on stilts</text>
+<text x="48" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Devised by Kaiotei. Math + research support: AI.</text>
+<text x="488" y="996" font-size="18" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">SITE PLAN</text>
+<text x="488" y="1022" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">Scale: 1" = 10'-0"</text>
+<text x="488" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Rev 2026-11 · dimensions in feet-inches unless noted</text>
+<text x="1018" y="990" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">CC BY-SA 4.0 · Kaiotei / 13 &lt;33 Covenant</text>
+<text x="1018" y="1012" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Share and adapt with credit, under the same license.</text>
+<text x="1018" y="1032" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">creativecommons.org/licenses/by-sa/4.0</text>
+<text x="1018" y="1052" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">1333covenant.com/irl/house</text>
+<text x="1535" y="1018" font-size="40" text-anchor="middle" font-weight="bold" fill="#322036">C-101</text>
+<text x="1535" y="1048" font-size="13" text-anchor="middle" font-weight="normal" fill="#1d1420">Sheet 2 of 10</text>
+<text x="70" y="80" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">SITE PLAN</text>
+<line class="m" x1="70" y1="85" x2="230" y2="85"/>
+<text x="70" y="102" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Scale 1" = 10'-0". Concept layout; adapt to your land, setbacks and utilities.</text>
+<rect class="d" x="560" y="360" width="340" height="270"/>
+<text x="570" y="624" font-size="11" text-anchor="start" font-weight="normal" fill="#1d1420">GRAVEL PAD</text>
+<rect class="cut" x="660" y="390" width="200" height="160"/>
+<text x="760" y="380" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">HOUSE 16 x 20 ON STILTS</text>
+<rect class="fill" x="785" y="552.5" width="75" height="50"/>
+<line class="m" x1="786.5" y1="600.5" x2="860" y2="600.5"/>
+<line class="m" x1="858" y1="552.5" x2="858" y2="602.5"/>
+<line class="m" x1="786.5" y1="591.5" x2="786.5" y2="600.5"/>
+<rect class="m" x="668.4" y="556.5" width="116.6" height="35"/>
+<line class="t" x1="776.7" y1="556.5" x2="776.7" y2="591.5"/>
+<line class="t" x1="768.3" y1="556.5" x2="768.3" y2="591.5"/>
+<line class="t" x1="760" y1="556.5" x2="760" y2="591.5"/>
+<line class="t" x1="751.7" y1="556.5" x2="751.7" y2="591.5"/>
+<line class="t" x1="743.4" y1="556.5" x2="743.4" y2="591.5"/>
+<line class="t" x1="735" y1="556.5" x2="735" y2="591.5"/>
+<line class="t" x1="726.7" y1="556.5" x2="726.7" y2="591.5"/>
+<line class="t" x1="718.4" y1="556.5" x2="718.4" y2="591.5"/>
+<line class="t" x1="710" y1="556.5" x2="710" y2="591.5"/>
+<line class="t" x1="701.7" y1="556.5" x2="701.7" y2="591.5"/>
+<line class="t" x1="693.4" y1="556.5" x2="693.4" y2="591.5"/>
+<line class="t" x1="685" y1="556.5" x2="685" y2="591.5"/>
+<line class="t" x1="676.7" y1="556.5" x2="676.7" y2="591.5"/>
+<line class="m" x1="780" y1="574" x2="676.4" y2="574"/>
+<polygon class="m" points="672.4,574 679.4,568 679.4,580" fill="#1d1420"/>
+<text x="683.4" y="566" font-size="12" text-anchor="start" font-weight="bold" fill="#1d1420">DN</text>
+<rect class="fill" x="762.5" y="262.5" width="75" height="75"/>
+<line class="t" x1="762.5" y1="262.5" x2="837.5" y2="337.5"/>
+<line class="t" x1="837.5" y1="262.5" x2="762.5" y2="337.5"/>
+<text x="845.5" y="300" font-size="12" text-anchor="start" font-weight="bold" fill="#1d1420">WATER TOWER 8 x 8</text>
+<text x="845.5" y="316" font-size="11" text-anchor="start" font-weight="normal" fill="#1d1420">2 x 275 gal IBC + PV</text>
+<polyline class="d" points="775,390 814,316"/>
+<text x="795" y="365" font-size="11" text-anchor="start" font-weight="normal" fill="#1d1420">RAIN LINE</text>
+<line class="t" x1="732.5" y1="337.5" x2="732.5" y2="390"/>
+<line class="m" x1="727.5" y1="342.5" x2="737.5" y2="332.5"/>
+<line class="m" x1="727.5" y1="395" x2="737.5" y2="385"/>
+<text x="725.5" y="363.8" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d1420" transform="rotate(-90 725.5 363.8)">5'-3"</text>
+<rect class="fill" x="530" y="170" width="100" height="80"/>
+<text x="580" y="214" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">SHED 8 x 10</text>
+<text x="580" y="228" font-size="10" text-anchor="middle" font-weight="normal" fill="#1d1420">(concept)</text>
+<polyline class="m" points="960,150 1020,150 1020,330 900,330 900,150 920,150"/>
+<text x="960" y="240" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">ANIMAL PEN (concept)</text>
+<text x="940" y="144" font-size="10" text-anchor="middle" font-weight="normal" fill="#1d1420">GATE</text>
+<rect class="m" x="560" y="730" width="80" height="80"/>
+<line class="d" x1="527" y1="770" x2="673" y2="770"/>
+<text x="600" y="828" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">WIND TURBINE ~27 ft (concept)</text>
+<polygon class="m" points="1500,100 1482,160 1500,150 1518,160" fill="#322036"/>
+<text x="1500" y="92" font-size="20" text-anchor="middle" font-weight="bold" fill="#1d1420">N</text>
+<text x="1300" y="760" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">NOTES</text>
+<text x="1300" y="777" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">1. South (+x) faces the porch and roof solar. Rotate the whole</text>
+<text x="1300" y="794" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">   plan to suit your sun path; keep solar on the sunny side.</text>
+<text x="1300" y="811" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">2. Keep the tower close so the rain line stays short and falls</text>
+<text x="1300" y="828" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">   toward the upper tote.</text>
+<text x="1300" y="845" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">3. Turbine, shed and pen are concept extras, not in the kit spec.</text>
+<text x="1300" y="862" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">4. Check setbacks, easements, flood zone and septic / well</text>
+<text x="1300" y="879" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">   locations with your local authority.</text>
+</svg>

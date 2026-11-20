@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1100" width="17in" height="11in">
+<style>
+text{font-family:'MS UI Gothic', Arial, sans-serif}
+.m{stroke:#1d1420;stroke-width:1.4;fill:none}
+.h{stroke:#1d1420;stroke-width:2.6;fill:none}
+.t{stroke:#1d1420;stroke-width:0.8;fill:none}
+.d{stroke:#1d1420;stroke-width:1;fill:none;stroke-dasharray:8 5}
+.c{stroke:#96799c;stroke-width:0.9;fill:none;stroke-dasharray:22 5 4 5}
+.dot{fill:#1d1420}
+.wall{fill:#4a3a50;stroke:#1d1420;stroke-width:1.2}
+.win{fill:#fff;stroke:#1d1420;stroke-width:0.9}
+.fill{fill:#f3eefa;stroke:#1d1420;stroke-width:1.2}
+.cut{fill:url(#hatch);stroke:#1d1420;stroke-width:2.2}
+.wb{fill:#fff;stroke:none}
+</style>
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#1d1420" stroke-width="1.6"/></pattern></defs>
+<rect x="0" y="0" width="1700" height="1100" fill="#fff"/>
+<rect class="h" x="30" y="30" width="1640" height="1040"/>
+<rect x="30" y="930" width="1640" height="30" fill="#322036"/>
+<text x="850" y="951" font-size="14" text-anchor="middle" font-weight="normal" fill="#e0ccf8" letter-spacing="1">EXPERIMENTAL · EDUCATIONAL · NOT FOR CONSTRUCTION WITHOUT LICENSED ENGINEER REVIEW AND PERMITS · BUILD AT YOUR OWN RISK</text>
+<rect class="h" x="30" y="960" width="1640" height="110"/>
+<line class="m" x1="470" y1="960" x2="470" y2="1070"/>
+<line class="m" x1="1000" y1="960" x2="1000" y2="1070"/>
+<line class="m" x1="1400" y1="960" x2="1400" y2="1070"/>
+<text x="48" y="996" font-size="24" text-anchor="start" font-weight="bold" fill="#322036" letter-spacing="3">13 &lt;33 COVENANT</text>
+<text x="48" y="1022" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">1333 Stilt House Kit · 16 x 20 on stilts</text>
+<text x="48" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Devised by Kaiotei. Math + research support: AI.</text>
+<text x="488" y="996" font-size="18" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">WATER, POWER AND HEAT SCHEMATIC</text>
+<text x="488" y="1022" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">Scale: not to scale</text>
+<text x="488" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Rev 2026-11 · dimensions in feet-inches unless noted</text>
+<text x="1018" y="990" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">CC BY-SA 4.0 · Kaiotei / 13 &lt;33 Covenant</text>
+<text x="1018" y="1012" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Share and adapt with credit, under the same license.</text>
+<text x="1018" y="1032" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">creativecommons.org/licenses/by-sa/4.0</text>
+<text x="1018" y="1052" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">1333covenant.com/irl/house</text>
+<text x="1535" y="1018" font-size="40" text-anchor="middle" font-weight="bold" fill="#322036">P-101</text>
+<text x="1535" y="1048" font-size="13" text-anchor="middle" font-weight="normal" fill="#1d1420">Sheet 10 of 10</text>
+<text x="70" y="80" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">WATER SYSTEM (SCHEMATIC, NOT TO SCALE)</text>
+<line class="m" x1="70" y1="85" x2="412" y2="85"/>
+<text x="70" y="102" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Rain and well water stored high, gravity down into the house.</text>
+<rect class="fill" x="80" y="140" width="190" height="64"/>
+<text x="175" y="169" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">RAIN DECK</text>
+<text x="175" y="187" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">16 x 10 metal, 160 sf</text>
+<rect class="fill" x="330" y="140" width="190" height="64"/>
+<text x="425" y="169" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">GUTTERS</text>
+<text x="425" y="187" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">own gutters, deck edges</text>
+<rect class="fill" x="580" y="140" width="190" height="64"/>
+<text x="675" y="169" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">FIRST-FLUSH</text>
+<text x="675" y="187" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">dumps the dirty first rain</text>
+<rect class="fill" x="830" y="140" width="190" height="64"/>
+<text x="925" y="169" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">FILTER</text>
+<text x="925" y="187" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">screen / sediment</text>
+<rect class="fill" x="830" y="300" width="190" height="64"/>
+<text x="925" y="329" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">UPPER TOTE</text>
+<text x="925" y="347" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">275 gal IBC</text>
+<rect class="fill" x="580" y="300" width="190" height="64"/>
+<text x="675" y="329" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">LOWER TOTE</text>
+<text x="675" y="347" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">275 gal IBC (overflow)</text>
+<rect class="fill" x="330" y="300" width="190" height="64"/>
+<text x="425" y="329" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">HOUSE SUPPLY</text>
+<text x="425" y="347" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">gravity, downhill run</text>
+<rect class="fill" x="80" y="300" width="190" height="64"/>
+<text x="175" y="329" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">FIXTURES</text>
+<text x="175" y="347" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">sink, shower, washdown</text>
+<rect class="fill" x="1080" y="300" width="190" height="64"/>
+<text x="1175" y="329" font-size="13" text-anchor="middle" font-weight="bold" fill="#1d1420">FILL WITHOUT GRID</text>
+<text x="1175" y="347" font-size="11" text-anchor="middle" font-weight="normal" fill="#1d1420">ram pump / hand / solar pump</text>
+<line class="h" x1="270" y1="172" x2="330" y2="172"/>
+<polygon class="m" points="330,172 318.9,176.7 318.9,167.3" fill="#1d1420"/>
+<line class="h" x1="520" y1="172" x2="580" y2="172"/>
+<polygon class="m" points="580,172 568.9,176.7 568.9,167.3" fill="#1d1420"/>
+<line class="h" x1="770" y1="172" x2="830" y2="172"/>
+<polygon class="m" points="830,172 818.9,176.7 818.9,167.3" fill="#1d1420"/>
+<line class="h" x1="925" y1="204" x2="925" y2="300"/>
+<polygon class="m" points="925,300 920.3,288.9 929.7,288.9" fill="#1d1420"/>
+<line class="h" x1="830" y1="332" x2="770" y2="332"/>
+<polygon class="m" points="770,332 781.1,327.3 781.1,336.7" fill="#1d1420"/>
+<line class="h" x1="580" y1="332" x2="520" y2="332"/>
+<polygon class="m" points="520,332 531.1,327.3 531.1,336.7" fill="#1d1420"/>
+<line class="h" x1="330" y1="332" x2="270" y2="332"/>
+<polygon class="m" points="270,332 281.1,327.3 281.1,336.7" fill="#1d1420"/>
+<line class="h" x1="1080" y1="332" x2="1020" y2="332"/>
+<polygon class="m" points="1020,332 1031.1,327.3 1031.1,336.7" fill="#1d1420"/>
+<text x="80" y="460" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">RAIN MATH (from the spec)</text>
+<text x="80" y="481" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">Whole roof 16 x 20 = 320 sf. One inch of rain is about 200 gallons on the whole roof.</text>
+<text x="80" y="502" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">The deck half (160 sf) yields about 100 gallons per inch after first-flush.</text>
+<text x="80" y="523" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">Storage: 2 x 275 gal = 550 gal in the tower.</text>
+<text x="80" y="544" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">A closed rain loop does not run a free perpetual pump. Lift water with a ram pump (stream with fall),</text>
+<text x="80" y="565" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">a hand pump, or a small solar pump, then let gravity do the daily work.</text>
+<text x="80" y="586" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">Treat all stored water before drinking: filter + disinfect (see the Emergency section on /irl/).</text>
+<text x="1180" y="480" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">POWER + HEAT</text>
+<line class="m" x1="1180" y1="485" x2="1340" y2="485"/>
+<text x="1180" y="520" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">PV: 3 panels on the south roof slope + 1 on the tower.</text>
+<text x="1180" y="539" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">Charge controller + battery bank sized to your loads.</text>
+<text x="1180" y="558" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">All wiring, disconnects and grounding per NEC /</text>
+<text x="1180" y="577" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">local code and a licensed electrician.</text>
+<text x="1180" y="596" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420"></text>
+<text x="1180" y="615" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">Heat: floor-1 wood stove, chimney through all levels.</text>
+<text x="1180" y="634" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">Cook and heat water on it. Radiant on all three levels.</text>
+<text x="1180" y="653" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">Finish the envelope and the stove before buying</text>
+<text x="1180" y="672" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">more panels (spec).</text>
+<text x="1180" y="691" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420"></text>
+<text x="1180" y="710" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">Smoke + CO alarms on every level and the loft.</text>
+<text x="1180" y="729" font-size="12.5" text-anchor="start" font-weight="normal" fill="#1d1420">Generators outside only, away from doors and windows.</text>
+</svg>

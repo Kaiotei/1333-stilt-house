@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1100" width="17in" height="11in">
+<style>
+text{font-family:'MS UI Gothic', Arial, sans-serif}
+.m{stroke:#1d1420;stroke-width:1.4;fill:none}
+.h{stroke:#1d1420;stroke-width:2.6;fill:none}
+.t{stroke:#1d1420;stroke-width:0.8;fill:none}
+.d{stroke:#1d1420;stroke-width:1;fill:none;stroke-dasharray:8 5}
+.c{stroke:#96799c;stroke-width:0.9;fill:none;stroke-dasharray:22 5 4 5}
+.dot{fill:#1d1420}
+.wall{fill:#4a3a50;stroke:#1d1420;stroke-width:1.2}
+.win{fill:#fff;stroke:#1d1420;stroke-width:0.9}
+.fill{fill:#f3eefa;stroke:#1d1420;stroke-width:1.2}
+.cut{fill:url(#hatch);stroke:#1d1420;stroke-width:2.2}
+.wb{fill:#fff;stroke:none}
+</style>
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#1d1420" stroke-width="1.6"/></pattern></defs>
+<rect x="0" y="0" width="1700" height="1100" fill="#fff"/>
+<rect class="h" x="30" y="30" width="1640" height="1040"/>
+<rect x="30" y="930" width="1640" height="30" fill="#322036"/>
+<text x="850" y="951" font-size="14" text-anchor="middle" font-weight="normal" fill="#e0ccf8" letter-spacing="1">EXPERIMENTAL · EDUCATIONAL · NOT FOR CONSTRUCTION WITHOUT LICENSED ENGINEER REVIEW AND PERMITS · BUILD AT YOUR OWN RISK</text>
+<rect class="h" x="30" y="960" width="1640" height="110"/>
+<line class="m" x1="470" y1="960" x2="470" y2="1070"/>
+<line class="m" x1="1000" y1="960" x2="1000" y2="1070"/>
+<line class="m" x1="1400" y1="960" x2="1400" y2="1070"/>
+<text x="48" y="996" font-size="24" text-anchor="start" font-weight="bold" fill="#322036" letter-spacing="3">13 &lt;33 COVENANT</text>
+<text x="48" y="1022" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">1333 Stilt House Kit · 16 x 20 on stilts</text>
+<text x="48" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Devised by Kaiotei. Math + research support: AI.</text>
+<text x="488" y="996" font-size="18" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">FLOOR FRAMING PLAN AND BRACE DETAIL</text>
+<text x="488" y="1022" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">Scale: 1/4" = 1'-0", detail 1/2" = 1'-0"</text>
+<text x="488" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Rev 2026-11 · dimensions in feet-inches unless noted</text>
+<text x="1018" y="990" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">CC BY-SA 4.0 · Kaiotei / 13 &lt;33 Covenant</text>
+<text x="1018" y="1012" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Share and adapt with credit, under the same license.</text>
+<text x="1018" y="1032" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">creativecommons.org/licenses/by-sa/4.0</text>
+<text x="1018" y="1052" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">1333covenant.com/irl/house</text>
+<text x="1535" y="1018" font-size="40" text-anchor="middle" font-weight="bold" fill="#322036">S-102</text>
+<text x="1535" y="1048" font-size="13" text-anchor="middle" font-weight="normal" fill="#1d1420">Sheet 4 of 10</text>
+<text x="70" y="80" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">FLOOR 1 FRAMING PLAN</text>
+<line class="m" x1="70" y1="85" x2="250" y2="85"/>
+<text x="70" y="102" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Scale 1/4" = 1'-0". Member sizes by engineer / local span tables.</text>
+<rect class="m" x="220" y="220" width="500" height="400"/>
+<rect class="cut" x="220" y="219.9" width="500" height="17"/>
+<rect class="cut" x="220" y="603.1" width="500" height="17"/>
+<rect class="fill" x="221" y="220" width="15" height="400"/>
+<rect class="fill" x="462.5" y="220" width="15" height="400"/>
+<rect class="fill" x="704" y="220" width="15" height="400"/>
+<line class="m" x1="270" y1="236.9" x2="270" y2="603.1"/>
+<line class="m" x1="320" y1="236.9" x2="320" y2="603.1"/>
+<line class="m" x1="370" y1="236.9" x2="370" y2="603.1"/>
+<line class="m" x1="420" y1="236.9" x2="420" y2="603.1"/>
+<line class="m" x1="470" y1="236.9" x2="470" y2="603.1"/>
+<line class="m" x1="520" y1="236.9" x2="520" y2="603.1"/>
+<line class="m" x1="570" y1="236.9" x2="570" y2="603.1"/>
+<line class="m" x1="620" y1="236.9" x2="620" y2="603.1"/>
+<line class="m" x1="670" y1="236.9" x2="670" y2="603.1"/>
+<rect class="h" x="502.5" y="377.5" width="85" height="85"/>
+<line class="t" x1="507.5" y1="382.5" x2="582.5" y2="457.5"/>
+<line class="t" x1="582.5" y1="382.5" x2="507.5" y2="457.5"/>
+<rect class="h" x="220.1" y="220" width="16.8" height="16.8"/>
+<rect class="h" x="220.1" y="603.3" width="16.8" height="16.8"/>
+<rect class="h" x="461.6" y="220" width="16.8" height="16.8"/>
+<rect class="h" x="461.6" y="603.3" width="16.8" height="16.8"/>
+<rect class="h" x="703.1" y="220" width="16.8" height="16.8"/>
+<rect class="h" x="703.1" y="603.3" width="16.8" height="16.8"/>
+<line class="t" x1="320" y1="228.4" x2="270" y2="145"/>
+<circle class="dot" cx="320" cy="228.4" r="2.5"/>
+<text x="266" y="149" font-size="12" text-anchor="end" font-weight="normal" fill="#1d1420">DOUBLED BEAM, 20 FT SIDES (size per engineer)</text>
+<line class="t" x1="470" y1="320" x2="545" y2="180"/>
+<circle class="dot" cx="470" cy="320" r="2.5"/>
+<text x="549" y="184" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">CROSSBEAM AT ENDS + MIDSPAN</text>
+<line class="t" x1="295" y1="495" x2="207.5" y2="682.5"/>
+<circle class="dot" cx="295" cy="495" r="2.5"/>
+<text x="203.5" y="686.5" font-size="12" text-anchor="end" font-weight="normal" fill="#1d1420">JOISTS @ 24" O.C.</text>
+<line class="t" x1="582.5" y1="457.5" x2="682.5" y2="682.5"/>
+<circle class="dot" cx="582.5" cy="457.5" r="2.5"/>
+<text x="686.5" y="686.5" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">TRAP DOOR 3 x 3, DOUBLED HEADERS + TRIMMERS</text>
+<line class="t" x1="220" y1="620" x2="220" y2="751"/>
+<line class="t" x1="720" y1="620" x2="720" y2="751"/>
+<line class="t" x1="220" y1="745" x2="720" y2="745"/>
+<line class="m" x1="215" y1="750" x2="225" y2="740"/>
+<line class="m" x1="715" y1="750" x2="725" y2="740"/>
+<text x="470" y="739" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d1420">20'-0"</text>
+<line class="t" x1="220" y1="220" x2="139" y2="220"/>
+<line class="t" x1="220" y1="620" x2="139" y2="620"/>
+<line class="t" x1="145" y1="220" x2="145" y2="620"/>
+<line class="m" x1="140" y1="225" x2="150" y2="215"/>
+<line class="m" x1="140" y1="625" x2="150" y2="615"/>
+<text x="138" y="420" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d1420" transform="rotate(-90 138 420)">16'-0"</text>
+<text x="1130" y="130" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">KNEE BRACE DETAIL</text>
+<line class="m" x1="1130" y1="135" x2="1290" y2="135"/>
+<text x="1130" y="152" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Scale 1/2" = 1'-0". Typical at posts, both directions.</text>
+<rect class="fill" x="1163.3" y="240" width="33.5" height="400"/>
+<rect class="cut" x="1163.3" y="202.5" width="325" height="37.5"/>
+<polygon class="fill" points="1196.8,440 1196.8,415 1380,240 1405,240"/>
+<line class="t" x1="1196.8" y1="172.5" x2="1380" y2="172.5"/>
+<line class="m" x1="1191.8" y1="177.5" x2="1201.8" y2="167.5"/>
+<line class="m" x1="1375" y1="177.5" x2="1385" y2="167.5"/>
+<text x="1288.4" y="166.5" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d1420">4'-0" LEG</text>
+<line class="t" x1="1120" y1="240" x2="1120" y2="440"/>
+<line class="m" x1="1115" y1="245" x2="1125" y2="235"/>
+<line class="m" x1="1115" y1="445" x2="1125" y2="435"/>
+<text x="1113" y="340" font-size="12" text-anchor="middle" font-weight="normal" fill="#1d1420" transform="rotate(-90 1113 340)">4'-0" LEG</text>
+<text x="1275" y="370" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420">45°</text>
+<text x="1155" y="662" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">8x8 POST</text>
+<text x="1240" y="194.5" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">BEAM</text>
+<text x="1130" y="700" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Through-bolt brace to post and beam. Bolt size,</text>
+<text x="1130" y="717" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">count and edge distances per engineer.</text>
+<text x="1130" y="734" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Braces resist racking: do not omit any.</text>
+</svg>

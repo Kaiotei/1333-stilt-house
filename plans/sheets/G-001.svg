@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1100" width="17in" height="11in">
+<style>
+text{font-family:'MS UI Gothic', Arial, sans-serif}
+.m{stroke:#1d1420;stroke-width:1.4;fill:none}
+.h{stroke:#1d1420;stroke-width:2.6;fill:none}
+.t{stroke:#1d1420;stroke-width:0.8;fill:none}
+.d{stroke:#1d1420;stroke-width:1;fill:none;stroke-dasharray:8 5}
+.c{stroke:#96799c;stroke-width:0.9;fill:none;stroke-dasharray:22 5 4 5}
+.dot{fill:#1d1420}
+.wall{fill:#4a3a50;stroke:#1d1420;stroke-width:1.2}
+.win{fill:#fff;stroke:#1d1420;stroke-width:0.9}
+.fill{fill:#f3eefa;stroke:#1d1420;stroke-width:1.2}
+.cut{fill:url(#hatch);stroke:#1d1420;stroke-width:2.2}
+.wb{fill:#fff;stroke:none}
+</style>
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#fff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#1d1420" stroke-width="1.6"/></pattern></defs>
+<rect x="0" y="0" width="1700" height="1100" fill="#fff"/>
+<rect class="h" x="30" y="30" width="1640" height="1040"/>
+<rect x="30" y="930" width="1640" height="30" fill="#322036"/>
+<text x="850" y="951" font-size="14" text-anchor="middle" font-weight="normal" fill="#e0ccf8" letter-spacing="1">EXPERIMENTAL · EDUCATIONAL · NOT FOR CONSTRUCTION WITHOUT LICENSED ENGINEER REVIEW AND PERMITS · BUILD AT YOUR OWN RISK</text>
+<rect class="h" x="30" y="960" width="1640" height="110"/>
+<line class="m" x1="470" y1="960" x2="470" y2="1070"/>
+<line class="m" x1="1000" y1="960" x2="1000" y2="1070"/>
+<line class="m" x1="1400" y1="960" x2="1400" y2="1070"/>
+<text x="48" y="996" font-size="24" text-anchor="start" font-weight="bold" fill="#322036" letter-spacing="3">13 &lt;33 COVENANT</text>
+<text x="48" y="1022" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">1333 Stilt House Kit · 16 x 20 on stilts</text>
+<text x="48" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Devised by Kaiotei. Math + research support: AI.</text>
+<text x="488" y="996" font-size="18" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">COVER, INDEX, DISCLAIMER</text>
+<text x="488" y="1022" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">Scale: none</text>
+<text x="488" y="1044" font-size="12" text-anchor="start" font-weight="normal" fill="#4a3a50">Rev 2026-11 · dimensions in feet-inches unless noted</text>
+<text x="1018" y="990" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">CC BY-SA 4.0 · Kaiotei / 13 &lt;33 Covenant</text>
+<text x="1018" y="1012" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">Share and adapt with credit, under the same license.</text>
+<text x="1018" y="1032" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">creativecommons.org/licenses/by-sa/4.0</text>
+<text x="1018" y="1052" font-size="12" text-anchor="start" font-weight="normal" fill="#1d1420">1333covenant.com/irl/house</text>
+<text x="1535" y="1018" font-size="40" text-anchor="middle" font-weight="bold" fill="#322036">G-001</text>
+<text x="1535" y="1048" font-size="13" text-anchor="middle" font-weight="normal" fill="#1d1420">Sheet 1 of 10</text>
+<text x="70" y="120" font-size="54" text-anchor="start" font-weight="bold" fill="#322036" letter-spacing="6">1333 STILT HOUSE KIT</text>
+<text x="72" y="160" font-size="18" text-anchor="start" font-weight="normal" fill="#1d1420">16 x 20 ft plate on stilts · two floors + half loft · carport under · rooftop rain deck · gravity water tower</text>
+<text x="72" y="188" font-size="15" text-anchor="start" font-weight="normal" fill="#1d1420">Open-source concept plans for off-grid and sustainable living. A basis to learn from and build on, not a finished design.</text>
+<rect x="70" y="215" width="760" height="380" fill="#fff" stroke="#322036" stroke-width="3"/>
+<rect x="70" y="215" width="760" height="40" fill="#322036"/>
+<text x="90" y="242" font-size="17" text-anchor="start" font-weight="bold" fill="#e0ccf8" letter-spacing="1">DISCLAIMER · READ BEFORE USING THESE PLANS</text>
+<text x="90" y="282" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Experimental design, published for educational purposes as a starting point for off-grid and</text>
+<text x="90" y="303" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">sustainable living. These plans are not engineered, stamped, or approved for construction in</text>
+<text x="90" y="324" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">any jurisdiction, and have not been reviewed by a licensed architect or engineer. Before</text>
+<text x="90" y="345" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">building, have a licensed engineer design the foundations, posts, beams, connections and</text>
+<text x="90" y="366" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">roof for your site's soil, frost depth, flood, wind, snow, seismic and fire conditions, and</text>
+<text x="90" y="387" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">obtain every permit your jurisdiction requires. Anyone who builds, modifies or occupies a</text>
+<text x="90" y="408" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">structure based on these plans does so entirely at their own risk. The plans are provided</text>
+<text x="90" y="429" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">as-is, without warranty of any kind, and the authors and 13 &lt;33 Covenant accept no liability</text>
+<text x="90" y="450" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">for injury, death, property damage or any other loss arising from their use.</text>
+<rect x="70" y="615" width="760" height="150" fill="#f3eefa" stroke="#9B6CD8" stroke-width="1.5"/>
+<text x="90" y="645" font-size="16" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">LICENSE</text>
+<text x="90" y="672" font-size="13.5" text-anchor="start" font-weight="normal" fill="#1d1420">Plans, drawings and guide: Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0). You</text>
+<text x="90" y="692" font-size="13.5" text-anchor="start" font-weight="normal" fill="#1d1420">may copy, adapt, build from and share them, including commercially, if you credit "Kaiotei /</text>
+<text x="90" y="712" font-size="13.5" text-anchor="start" font-weight="normal" fill="#1d1420">13 &lt;33 Covenant", link the license, say what you changed, and release your adapted plans</text>
+<text x="90" y="732" font-size="13.5" text-anchor="start" font-weight="normal" fill="#1d1420">under the same license. Code (model.js, plans.js, dims.js, viewer): MIT.</text>
+<text x="880" y="240" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">SHEET INDEX</text>
+<line class="m" x1="880" y1="245" x2="1040" y2="245"/>
+<text x="880" y="278" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">G-001</text>
+<text x="960" y="278" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Cover, index, disclaimer, key specs</text>
+<text x="880" y="304" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">C-101</text>
+<text x="960" y="304" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Site plan</text>
+<text x="880" y="330" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">S-101</text>
+<text x="960" y="330" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Foundation and post plan</text>
+<text x="880" y="356" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">S-102</text>
+<text x="960" y="356" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Floor framing plan and brace detail</text>
+<text x="880" y="382" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">A-101</text>
+<text x="960" y="382" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Floor plans: floor 1, floor 2, loft + rain deck</text>
+<text x="880" y="408" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">A-201</text>
+<text x="960" y="408" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Elevations: south (porch) and north (tower)</text>
+<text x="880" y="434" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">A-202</text>
+<text x="960" y="434" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Elevations: west (loft gable) and east (deck end)</text>
+<text x="880" y="460" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">A-301</text>
+<text x="960" y="460" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Building section A-A</text>
+<text x="880" y="486" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">A-401</text>
+<text x="960" y="486" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Stair and porch detail</text>
+<text x="880" y="512" font-size="14" text-anchor="start" font-weight="bold" fill="#1d1420">P-101</text>
+<text x="960" y="512" font-size="14" text-anchor="start" font-weight="normal" fill="#1d1420">Water, power and heat schematic</text>
+<text x="880" y="560" font-size="15" text-anchor="start" font-weight="bold" fill="#1d1420" letter-spacing="1">KEY SPECS (FROM THE PUBLISHED KIT)</text>
+<line class="m" x1="880" y1="565" x2="1186" y2="565"/>
+<text x="880" y="596" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Footprint</text>
+<text x="1060" y="596" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">16 x 20 ft (two 8 x 20 crates, or wood / foam)</text>
+<text x="880" y="619" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Floors 1 + 2</text>
+<text x="1060" y="619" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">320 sf each, two ~8 ft stories, 16 ft wall</text>
+<text x="880" y="642" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Loft</text>
+<text x="1060" y="642" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">16 x 10 ft (160 sf) under a 45° metal roof</text>
+<text x="880" y="665" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Rain deck</text>
+<text x="1060" y="665" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">16 x 10 ft metal, own gutters</text>
+<text x="880" y="688" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Living total</text>
+<text x="1060" y="688" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">about 800 sf</text>
+<text x="880" y="711" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Carport</text>
+<text x="1060" y="711" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">16 x 20, 9 ft clear (8 ft min)</text>
+<text x="880" y="734" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Posts</text>
+<text x="1060" y="734" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">8x8 or larger, 6-post grid, 45° braces</text>
+<text x="880" y="757" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Stairs</text>
+<text x="1060" y="757" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">detached, to a small porch, unhook for security</text>
+<text x="880" y="780" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Water tower</text>
+<text x="1060" y="780" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">8 x 8, ~16 ft, two 275 gal IBC totes</text>
+<text x="880" y="803" font-size="13" text-anchor="start" font-weight="bold" fill="#1d1420">Heat / power</text>
+<text x="1060" y="803" font-size="13" text-anchor="start" font-weight="normal" fill="#1d1420">floor-1 wood stove; PV on roof + tower</text>
+<text x="70" y="905" font-size="13" text-anchor="start" font-weight="normal" fill="#4a3a50">Generated from dims.js. Change a dimension there and regenerate: the 3D model, these sheets and the materials estimate all follow.</text>
+</svg>

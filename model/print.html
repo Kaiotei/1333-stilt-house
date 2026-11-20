@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>1333 Stilt House Kit - plan set (11 x 17)</title>
+<meta name="robots" content="noindex">
+<style>
+    @page { size: 17in 11in; margin: 0; }
+    html, body { margin: 0; background: #fff; }
+    .sheet { width: 17in; height: 11in; overflow: hidden; break-after: page; page-break-after: always; }
+    .sheet:last-child { break-after: auto; page-break-after: auto; }
+    .sheet svg { display: block; width: 17in; height: 11in; }
+    @media screen { body { background: #ddd; } .sheet { margin: 0 auto 24px; box-shadow: 0 2px 10px rgba(0,0,0,.2); } }
+</style>
+</head>
+<body>
+<div id="set"></div>
+<script type="module">
+    import { SHEETS } from './plans.js?v=1';
+    const set = document.getElementById('set');
+    for (const s of SHEETS) {
+        const d = document.createElement('div');
+        d.className = 'sheet';
+        d.innerHTML = s.svg();
+        set.appendChild(d);
+    }
+    document.body.dataset.ready = '1';
+</script>
+</body>
+</html>
