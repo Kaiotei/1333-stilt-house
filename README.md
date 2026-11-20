@@ -6,6 +6,7 @@ half loft, a rooftop rain deck and a gravity water tower. Published free by
 
 - Live 3D model: https://1333covenant.com/irl/house/
 - Building guide: https://1333covenant.com/irl/house/guide.html
+- Source: https://github.com/Kaiotei/1333-stilt-house
 
 ## Read first: disclaimer
 
