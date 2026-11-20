@@ -58,6 +58,15 @@ death, property damage or any other loss arising from their use.
 - Water tower 8 x 8, about 16 ft, two 275 gal IBC totes, gravity to the house
 - Floor-1 wood stove; solar on the roof and the tower
 
+## Material cost estimate
+
+The guide includes a lumber takeoff and material cost estimate (no labor), priced November 2026
+from US big-box and lumber-yard listings: about **5,900 board feet + 82 sheets, roughly $9,000
+in lumber and sheet goods**, and about **$17,300 to $21,500 for a weathertight wood-frame shell**
+including concrete, metal roofing and allowances for windows, doors, siding and hardware.
+Quantities follow `model/dims.js`; prices and their sources live in `costs()` in `model/plans.js`.
+Member sizes used for pricing are estimating assumptions, not engineering.
+
 ## Change the design
 
 1. Edit `model/dims.js`.

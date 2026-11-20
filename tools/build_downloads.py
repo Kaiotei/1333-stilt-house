@@ -103,7 +103,7 @@ def main():
         if n != 10:
             print(f'  WARNING: expected 10 plan pages, got {n}')
         if SITE:
-            pdf(browser, prefix + 'guide.html', guide_pdf, work)
+            pdf(browser, prefix + 'guide.html?print=1', guide_pdf, work)
     finally:
         srv.terminate()
 

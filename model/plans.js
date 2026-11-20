@@ -680,12 +680,18 @@ export const SHEETS = [
 
 // ---------------------------------------------------------------------------------------------
 // Materials estimate. Quantities follow dims.js; sizes the spec does not fix say so.
-export function bom() {
+function areas() {
   const joists = Math.floor((K.L - 2) / JOIST_OC);
-  const sheets = sf => Math.ceil((sf * 1.1) / 32);
+  const sheets = sf => Math.ceil((sf * 1.1) / 32);                       // 4x8 sheets incl. 10% waste
   const openSf = WINDOWS.reduce((a, w) => a + w.w * w.h, 0) + DOORS.porch.w * DOORS.porch.h;
   const wallSf = 2 * (K.W + K.L) * K.box;
   const slope = K.pitch * Math.SQRT2 + 1.2, roofSf = Math.round(2 * slope * (K.L / 2 + 1.25));
+  const gableSf = 2 * (K.W * K.pitch / 2);
+  return { joists, sheets, openSf, wallSf, slope, roofSf, gableSf, perim: 2 * (K.W + K.L) };
+}
+
+export function bom() {
+  const { joists, sheets, openSf, wallSf, roofSf } = areas();
   const stringer = Math.hypot(K.f1, (STAIR.n - 1) * STAIR.run + 0.4);
   const towerBrace = Math.hypot(TOWER.half * 2, 4.4);
   return [
@@ -721,4 +727,116 @@ export function bom() {
     ['Safety', 'Smoke + CO alarms', '4+', 'every level + loft'],
     ['Hardware', 'Post bases, hangers, ties, bolts', 'as designed', 'per engineer'],
   ];
+}
+
+// ---------------------------------------------------------------------------------------------
+// Material cost estimate (no labor). Quantities follow dims.js through the same takeoff rules
+// as bom(); member sizes are common residential sizes chosen for ESTIMATING ONLY (the kit spec
+// leaves sizing to an engineer). Prices: US big-box / lumber-yard listings, East Coast typical.
+// est: true = no listing at that exact size, priced from the nearest size per linear foot.
+// Update PRICES_AS_OF and the prices together when re-pricing.
+export const PRICES_AS_OF = 'November 2026';
+export const PRICE_SOURCES = [
+  ['Home Depot: 2x12x16 ground-contact PT', 'https://www.homedepot.com/p/2-in-x-12-in-x-16-ft-Prime-Ground-Contact-Pressure-Treated-Lumber-21216MGY2HD/206937122'],
+  ['Stine: 8x8x10 treated, ground contact', 'https://www.stinehome.com/building-materials/lumber/treated-pine/8x8-treated/8-in.-x-8-in.-x-10-ft.-treated-ground-contact/8810TP.html'],
+  ['Hamshaw Lumber: 8x8x10 treated SYP', 'https://hamshawlumber.com/p/treated-syp-rough-gc'],
+  ['Home Depot: 10 ft pressure-treated lumber', 'https://www.homedepot.com/b/Lumber-Composites-Pressure-Treated-Lumber/10-ft/N-5yc1vZc3srZ1z1rkse'],
+  ['Home Depot: 2x6 framing studs', 'https://www.homedepot.com/b/Lumber-Composites-Dimensional-Lumber-Framing-Studs/2x6/N-5yc1vZc562Z1z0ywy6'],
+  ['Framing lumber price list 2026', 'https://framing-calculator.com/framing-lumber-prices'],
+  ['Home Depot: 2x10 framing lumber', 'https://www.homedepot.com/b/Lumber-Composites-Dimensional-Lumber-Framing-Lumber/2x10/N-5yc1vZc55wZ1z0ywxp'],
+  ['Home Depot: tongue-and-groove plywood', 'https://www.homedepot.com/b/Lumber-Composites-Plywood/Tongue-and-Groove/N-5yc1vZbqm7Z1z1tpte'],
+  ['Plywood vs OSB prices 2026', 'https://cyanbuild.com/resources/plywood-osb-cost-guide'],
+  ['Home Depot: 12 ft metal roofing', 'https://www.homedepot.com/b/Building-Materials-Roofing-Roof-Panels-Metal-Roofing/12-ft/N-5yc1vZapwhZ1z22wcp'],
+  ['Home Depot: Quikrete 80 lb concrete', 'https://www.homedepot.com/project-seller/concrete-calculator/Quikrete-80-lb-Concrete-Mix-110180/100318511'],
+  ['Lumber prices 2026 (market + tariff notes)', 'https://hammerio.com/blog/lumber-prices/'],
+];
+
+export function costs() {
+  const { joists, sheets, openSf, wallSf, roofSf, gableSf, perim } = areas();
+  const rows = [];
+  let sec = '';
+  const S = name => { sec = name; };
+  // size = [thickness in, width in, length ft] nominal, for board feet; null for sheet goods
+  const L = (item, qty, size, price, est = false) => rows.push({ sec, item, qty, size, price, est, total: qty * price, bf: size ? (qty * size[0] * size[1] * size[2]) / 12 : 0, sheet: !size });
+
+  S('Stilts + floor 1');
+  L('8x8x10 PT posts', POSTS.length, [8, 8, 10], 130);
+  L('2x12x20 PT beams, doubled, 20 ft sides', 4, [2, 12, 20], 65, true);
+  L('2x12x16 PT crossbeams, doubled', 6, [2, 12, 16], 46);
+  L(`2x12x16 PT joists @ ${JOIST_OC * 12}" o.c.`, joists, [2, 12, 16], 46);
+  L('4x6x12 PT knee braces (2 per board)', 6, [4, 6, 12], 35, true);
+  S('Floor 2 + loft / deck');
+  L('2x10x16 floor 2 joists', joists, [2, 10, 16], 25);
+  L('2x10x20 floor 2 rims', 2, [2, 10, 20], 40, true);
+  L('2x10x16 PT loft / deck joists', joists, [2, 10, 16], 30);
+  L('2x10x20 PT loft / deck rims', 2, [2, 10, 20], 45, true);
+  L('2x4x10 deck slope sleepers', 10, [2, 4, 10], 5.5, true);
+  S('Walls, 2x6 @ 16"');
+  L('2x6 precut studs, two stories', Math.round((perim * 12 / 16) * 1.3) * 2, [2, 6, 8], 6.25);
+  L('2x6x16 plates (bottom + double top)', Math.ceil((3 * perim * 2) / 16), [2, 6, 16], 12);
+  L('2x10x16 headers', Math.ceil(((WINDOWS.length + 2) * 8) / 16), [2, 10, 16], 25);
+  L('2x6 precut gable studs', 16, [2, 6, 8], 6.25);
+  L('2x6x16 gable plates', 2, [2, 6, 16], 12);
+  S('Roof, loft half');
+  L('2x8x14 rafters @ 24"', ((K.L / 2) / 2 + 1) * 2, [2, 8, 14], 16, true);
+  L('2x10x12 ridge board', 1, [2, 10, 12], 20, true);
+  L('2x6x10 collar ties', 6, [2, 6, 10], 8, true);
+  S('Sheet goods (4x8)');
+  L('3/4" T&G subfloor, 3 levels', 3 * sheets(K.W * K.L), null, 46);
+  L('7/16" OSB wall + gable sheathing', sheets(wallSf - openSf) + sheets(gableSf), null, 15);
+  L('7/16" OSB roof sheathing', sheets(roofSf), null, 15);
+  S('Deck guard, porch, stair (PT)');
+  L('4x4x8 deck guard posts (2 per board)', 4, [4, 4, 8], 11);
+  L('2x6x12 deck guard cap', 3, [2, 6, 12], 12, true);
+  L('2x4x12 deck guard rails', 6, [2, 4, 12], 9, true);
+  L('2x2x42" balusters, deck', 80, [2, 2, 3.5], 1.5, true);
+  L('6x6x12 porch posts', 2, [6, 6, 12], 60, true);
+  L('2x8x8 porch framing', 10, [2, 8, 8], 11, true);
+  L('5/4x6x8 porch decking', 12, [1.25, 6, 8], 9, true);
+  L('4x4x8 porch braces', 2, [4, 4, 8], 11);
+  L('2x12x16 stair stringers', 3, [2, 12, 16], 46);
+  L('2x12x8 treads (2 per board)', Math.ceil((STAIR.n - 1) / 2), [2, 12, 8], 22, true);
+  L('4x4x10 top newels', 2, [4, 4, 10], 19);
+  L('4x4x8 bottom newels, supports, guard posts', 6, [4, 4, 8], 11);
+  L('2x4x16 porch + stair rails', 6, [2, 4, 16], 14, true);
+  L('2x2x42" balusters, porch + stair', 93, [2, 2, 3.5], 1.5, true);
+  S('Water tower (PT)');
+  L('6x6x16 posts', 4, [6, 6, 16], 85, true);
+  L('2x8x8 platform framing', 20, [2, 8, 8], 11, true);
+  L('2x6x8 platform decking', 36, [2, 6, 8], 8, true);
+  L('2x6x10 X braces', 24, [2, 6, 10], 10, true);
+
+  const sections = [];
+  for (const r of rows) {
+    let s = sections.find(x => x.name === r.sec);
+    if (!s) { s = { name: r.sec, total: 0, bf: 0, sheets: 0 }; sections.push(s); }
+    s.total += r.total; s.bf += r.bf; if (r.sheet) s.sheets += r.qty;
+  }
+  const lumber = rows.reduce((a, r) => a + r.total, 0);
+  const bf = rows.reduce((a, r) => a + r.bf, 0);
+  const sheetCount = rows.filter(r => r.sheet).reduce((a, r) => a + r.qty, 0);
+
+  // concrete: 16" x 5 ft house piers, 12" x 4.5 ft porch + tower piers, stair pad 4" thick
+  const cf = POSTS.length * Math.PI * (8 / 12) ** 2 * 5 + 6 * Math.PI * 0.5 ** 2 * 4.5 + (STAIR.width + 0.8) * 2.4 * 0.33;
+  const bags = Math.ceil(cf / 0.6);
+  const metalSf = roofSf + (K.W * K.L) / 2;
+  const other = [
+    { item: `Concrete, 80 lb bags (${Math.round(cf)} cu ft: piers + stair pad)`, qty: bags, unit: 'bags', price: 6.15, total: bags * 6.15 },
+    { item: `29 ga ribbed metal, roof + rain deck (+25% for trim, ridge, screws)`, qty: metalSf, unit: 'sq ft', price: 1.6 * 1.25, total: metalSf * 1.6 * 1.25 },
+  ];
+  const allowances = [
+    [`Windows (${WINDOWS.length} at 3x4 + loft)`, 2800, 4900],
+    ['Exterior doors (2)', 600, 1200],
+    [`Panel siding, T1-11 / LP SmartSide (${sheets(wallSf - openSf) + sheets(gableSf)} sheets)`, 2100, 2700],
+    ['Housewrap, flashing, roof underlayment', 300, 500],
+    ['Hardware: post bases, hangers, ties, bolts, fasteners', 800, 1500],
+    ['Sonotubes / pier forms', 150, 150],
+  ];
+  const excluded = 'Insulation, interior finish, plumbing, electrical, wood stove + class-A chimney (roughly $2,500-5,000), solar, IBC totes (about $150-350 each), gutters + first-flush, delivery, tax, labor.';
+  const otherTotal = other.reduce((a, o) => a + o.total, 0);
+  const allowLo = allowances.reduce((a, x) => a + x[1], 0), allowHi = allowances.reduce((a, x) => a + x[2], 0);
+  return {
+    rows, sections, lumber, bf, sheetCount, other, otherTotal, allowances, allowLo, allowHi, excluded,
+    contingency: lumber * 0.1, shellLo: lumber + otherTotal + allowLo, shellHi: lumber + otherTotal + allowHi,
+  };
 }
